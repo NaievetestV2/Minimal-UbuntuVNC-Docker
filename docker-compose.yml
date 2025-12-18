@@ -1,0 +1,20 @@
+services:
+  ubuntu-desktop:
+    build: .
+    container_name: minecraft_desktop
+    restart: always
+    shm_size: '2gb'
+    ports:
+      - "3001:5901"
+      - "3002:6080"
+    volumes:
+      - vnc_home:/home/headless
+      - vnc_usr:/usr
+      - vnc_etc:/etc
+      - vnc_var:/var/lib
+
+volumes:
+  vnc_home:
+  vnc_usr:
+  vnc_etc:
+  vnc_var:
