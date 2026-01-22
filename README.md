@@ -3,7 +3,7 @@ This is a config to install Ubuntu 24.04 LTS (or any other) in Docker with VNC a
 
 ## Notes:
 - Tested on Oracle Always-Free Tier Ampere A1 processor (aarch64)
-- It works like a charm and I might update it if I feel like it, if you want, feel free to fork it and send me on my Discord `hackerdogs.` so I can post it here!
+- It works like a charm and I might update it if I feel like it, if you want, feel free to fork it and send me on my Discord `confidentialpeacock` so I can post it here!
 - This has VNC and NoVNC on port 3001 and 3002 respectively.
 - **Password:** dumbfuck#1
 - **Username:** headless
